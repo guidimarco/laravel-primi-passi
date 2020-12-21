@@ -19,8 +19,13 @@
                     News
                 </div>
 
-                <div class="list">
-
+                <div class="content">
+                    <div class="news-card">
+                        @foreach ($all_news as $news)
+                            <h2>{{ $news["title"] }}</h2>
+                            <p>{{ $news["article"] }}</p>
+                        @endforeach
+                    </div>
                 </div>
             </div>
         </div>
