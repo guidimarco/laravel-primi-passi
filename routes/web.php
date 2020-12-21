@@ -24,3 +24,15 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/about-us', function () {
+    return view('about');
+}) -> name("aboutUs");
+
+Route::get('/news', function () {
+    return view('news');
+}) -> name("news");
+
+Route::get('/our-blog', function () {
+    return view('blog');
+}) -> name("blog");

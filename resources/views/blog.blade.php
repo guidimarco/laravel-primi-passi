@@ -16,16 +16,12 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Ciao {{ $user_name }} {{ $user_surname }}
+                    Blog
                 </div>
 
-                <div class="links">
-                    <a href="{{ route("aboutUs") }}">About us</a>
-                    <a href="{{ route("news") }}">News</a>
-                    <a href="{{ route("blog") }}">Blog</a>
-                    <a href="{{ url("https://github.com/") }}">GitHub</a>
-                </div>
+                <div class="list">
 
+                </div>
             </div>
         </div>
     </body>
